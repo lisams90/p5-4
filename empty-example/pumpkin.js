@@ -5,8 +5,8 @@ function Pumpkin(x,y,veggie){
 
 	this.display =function(){
 
-    imageMode(CENTER);
-    image(this.veggie, this.x, this.y);
+    // imageMode(CENTER);
+    image(this.veggie, this.x-50, this.y-50);
 	}
 	this.update=function(){
 		this.x =this.x+random(-1,1);
